@@ -38,7 +38,7 @@ Keep setup small enough that maintaining it remains cheaper than repeating the w
 ## Apply referenced skills
 
 Apply reusable skills selected by the development plan for concerns they own.
-Apply `scope-aligned-naming` when repository or path naming is part of the implementation.
+Apply `scope-aligned-naming` to names within that skill's defined scope.
 Maintain a concise README when the repository contains multiple skills or setup steps.
 
 ## Validate the result
