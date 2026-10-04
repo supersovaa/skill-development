@@ -18,8 +18,9 @@ Prefer direct positive rules that state the desired action or boundary.
 Move stable repeated discovery into installation-time setup when that makes normal skill use lighter.
 Use existing skills for concerns they already own.
 Keep repository-specific setup proportional to the recurring work it removes.
-Preserve stable design context in the repository README, especially the core idea and responsibility boundaries that future changes need to keep intact.
-Keep operational behavior in `SKILL.md` instead of duplicating its rule set in the README.
+Preserve stable design context in the repository README: the core idea, each skill's responsibility, and ownership of adjacent concerns that are easy to confuse with it.
+Express responsibility boundaries through affirmative ownership statements that name the skill responsible for each concern.
+Keep operational behavior in `SKILL.md`.
 
 ## Repository shape
 
