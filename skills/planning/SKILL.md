@@ -56,5 +56,11 @@ Define:
 
 Record implementation mechanics only when they are already settled constraints.
 
+## Hand off the plan
+
+Return the development plan in the current work context for immediate implementation.
+When the surrounding workflow requires durable planning state, persist the plan using that workflow's established plan location and format.
+Make the selected plan identifiable to the implementation phase.
+
 This skill owns skill-repository planning.
 Implementation belongs to `skill-development-implementation`.
