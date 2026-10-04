@@ -1,13 +1,14 @@
 ---
 name: skill-definition-review
-description: Review skill definitions as complete behavioral specifications, checking activation, rule consistency, responsibility boundaries, phase scope, setup cost, and whether the whole skill expresses its intended behavior with a minimal rule set.
+description: Review skill definitions as complete behavioral specifications, using related repository structure, skills, governing instructions, and setup artifacts when needed to judge activation, responsibility boundaries, phase scope, recurring cost, and whether the target skill expresses its intended behavior with a minimal rule set.
 ---
 
 # Skill Definition Review
 
 Use this skill when reviewing a `SKILL.md` file or an equivalent skill definition.
 
-Treat the changed skill as one complete behavioral specification.
+Treat the changed skill as one complete behavioral specification and keep it as the review target.
+Inspect related skills, repository structure, governing instructions, and setup artifacts when they are needed to judge that skill's activation, responsibility boundary, phase ownership, or recurring cost.
 Use the diff to understand the intended change, then judge the resulting full definition.
 
 ## Check activation
