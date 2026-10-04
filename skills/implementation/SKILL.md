@@ -1,6 +1,6 @@
 ---
 name: skill-development-implementation
-description: Implement a settled skill-repository plan with minimal files, phase-focused skill definitions, direct positive rules, and setup that keeps normal skill use lightweight.
+description: Implement a settled skill-repository plan with minimal files, phase-focused skill definitions, stable responsibility context in the README, direct positive rules, and setup that keeps normal skill use lightweight.
 ---
 
 # Skill Development Implementation
@@ -40,8 +40,9 @@ Keep setup small enough that maintaining it remains cheaper than repeating the w
 Create or maintain a concise repository README for a published skill repository.
 Record the core idea that the repository or skill exists to express.
 Record what each skill is responsible for.
-For adjacent concerns that need explicit distinction, name the skill that owns each concern.
+For adjacent concerns that need explicit distinction, record their actual owner.
 Write responsibility boundaries as affirmative ownership statements.
+Name the owning skill when one is already selected; otherwise assign the concern to a separate skill responsibility.
 Keep the README at the responsibility level and place executable behavior and detailed operational rules in `SKILL.md`.
 
 ## Apply referenced skills
