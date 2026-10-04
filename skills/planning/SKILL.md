@@ -1,6 +1,6 @@
 ---
 name: skill-development-planning
-description: Plan a lightweight skill repository by checking existing skills first, defining coherent phase boundaries, choosing the minimum supporting structure, and moving stable repeated work into setup when that reduces normal-use cost.
+description: Plan a lightweight skill repository by checking existing skills first, defining coherent phase boundaries, choosing the minimum supporting structure, preserving stable responsibility context in the README, and moving repeated stable work into setup when that reduces normal-use cost.
 ---
 
 # Skill Development Planning
@@ -32,8 +32,9 @@ Reference existing reusable skills instead of copying their rules.
 
 Identify the core idea that the repository or skill exists to express.
 Define what each skill is responsible for.
-Identify adjacent concerns that are easy to confuse with that responsibility and name the skill that owns each concern.
+Identify adjacent concerns that are easy to confuse with that responsibility and assign each concern to its actual owner.
 Describe the current responsibility allocation with affirmative ownership statements.
+Name the owning skill when one is already selected; otherwise assign the concern to a separate skill responsibility.
 Plan a concise repository README that records this design context at the responsibility level.
 Keep executable behavior and detailed operational rules in `SKILL.md`.
 
