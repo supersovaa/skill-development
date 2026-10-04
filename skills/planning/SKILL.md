@@ -25,8 +25,7 @@ Use the smallest set of skills that preserves those boundaries clearly.
 ## Keep the repository lightweight
 
 Prefer the minimum files and supporting artifacts required for reliable use.
-Let the repository name and parent directories carry shared context.
-Give child directories only the detail needed to distinguish their responsibility within that scope.
+Apply `scope-aligned-naming` when choosing repository and path names.
 Reference existing reusable skills instead of copying their rules.
 
 ## Design setup around recurring cost
