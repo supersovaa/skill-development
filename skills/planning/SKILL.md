@@ -54,7 +54,7 @@ Define:
 - existing skills that remain dependencies or review tools;
 - compatibility decisions for existing skill names and entry points.
 
-Keep implementation mechanics open unless they are already settled constraints.
+Record implementation mechanics only when they are already settled constraints.
 
 This skill owns skill-repository planning.
 Implementation belongs to `skill-development-implementation`.
