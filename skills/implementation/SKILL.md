@@ -38,9 +38,11 @@ Keep setup small enough that maintaining it remains cheaper than repeating the w
 ## Document stable design context
 
 Create or maintain a concise repository README for a published skill repository.
-Record the core idea the repository or skill exists to preserve and the responsibility boundaries future changes must respect.
-Record relationships between skills and setup requirements when they materially affect how the repository is understood.
-Keep executable behavior and detailed operational rules in `SKILL.md` instead of duplicating its rule set in the README.
+Record the core idea that the repository or skill exists to express.
+Record what each skill is responsible for.
+For adjacent concerns that need explicit distinction, name the skill that owns each concern.
+Write responsibility boundaries as affirmative ownership statements.
+Keep the README at the responsibility level and place executable behavior and detailed operational rules in `SKILL.md`.
 
 ## Apply referenced skills
 
@@ -52,11 +54,12 @@ Apply `scope-aligned-naming` to names within that skill's defined scope.
 Confirm that:
 
 - every planned responsibility has one clear owner;
+- adjacent concerns that need distinction name their responsible skill;
 - phase boundaries remain explicit;
 - normal execution carries only the context it needs;
 - setup removes recurring work where intended;
 - each skill definition uses the smallest rule set that preserves behavior;
-- the README preserves the settled core idea and responsibility boundaries;
+- the README records the settled core idea and current responsibility allocation;
 - repository documentation matches the implemented structure.
 
 Leave the resulting skill definitions ready for independent review by `skill-definition-review`.
