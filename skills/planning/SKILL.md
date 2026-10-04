@@ -28,6 +28,13 @@ Prefer the minimum files and supporting artifacts required for reliable use.
 Apply `scope-aligned-naming` to names within that skill's defined scope.
 Reference existing reusable skills instead of copying their rules.
 
+## Preserve stable design context
+
+Identify the core idea that the repository or skill exists to preserve.
+Define each skill's responsibility boundary clearly enough that future changes can distinguish work that belongs there from adjacent concerns.
+Plan a concise repository README that records this stable design context.
+Keep executable behavior and detailed operational rules in `SKILL.md` rather than duplicating them in the README.
+
 ## Design setup around recurring cost
 
 Identify discovery, classification, or configuration that would otherwise repeat during normal skill use.
@@ -46,9 +53,10 @@ Use a negative statement when the negation itself carries an independent semanti
 Define:
 
 - the skills to create, retain, move, or revise;
-- the responsibility of each skill;
+- the core idea and responsibility boundary of each skill;
 - the phase relationship between skills;
 - the minimum repository structure;
+- the stable design context to preserve in the repository README;
 - any installation-time or introduction-time setup;
 - existing skills that remain dependencies or review tools;
 - compatibility decisions for existing skill names and entry points.
