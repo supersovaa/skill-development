@@ -35,11 +35,17 @@ Persist only information that remains useful across normal executions.
 Make normal skill execution consume the prepared result directly.
 Keep setup small enough that maintaining it remains cheaper than repeating the work it replaces.
 
+## Document stable design context
+
+Create or maintain a concise repository README for a published skill repository.
+Record the core idea the repository or skill exists to preserve and the responsibility boundaries future changes must respect.
+Record relationships between skills and setup requirements when they materially affect how the repository is understood.
+Keep executable behavior and detailed operational rules in `SKILL.md` instead of duplicating its rule set in the README.
+
 ## Apply referenced skills
 
 Apply reusable skills selected by the development plan for concerns they own.
 Apply `scope-aligned-naming` to names within that skill's defined scope.
-Maintain a concise README when the repository contains multiple skills or setup steps.
 
 ## Validate the result
 
@@ -50,6 +56,7 @@ Confirm that:
 - normal execution carries only the context it needs;
 - setup removes recurring work where intended;
 - each skill definition uses the smallest rule set that preserves behavior;
+- the README preserves the settled core idea and responsibility boundaries;
 - repository documentation matches the implemented structure.
 
 Leave the resulting skill definitions ready for independent review by `skill-definition-review`.
