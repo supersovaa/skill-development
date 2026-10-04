@@ -43,10 +43,24 @@ Identify the intended behavioral change from the request or review context.
 Trace that change through the frontmatter, usage guidance, relevant rules, and closing responsibility statement.
 Check existing text whose meaning changes because of the new behavior.
 
+## Correct clear local defects
+
+Correct a defect during the review when the intended correction is uniquely determined by the existing purpose, rules, and referenced skills.
+Prefer direct correction when the change is local, preserves the intended behavior, and requires no new design, responsibility, compatibility, or policy decision.
+Continue the review after applying such corrections.
+Keep individually corrected local defects out of the blocking findings.
+
+## Escalate mistaken premises
+
+Report a blocking finding when the reviewed change appears to build on a materially mistaken premise about the requested behavior, responsibility boundary, governing source, or workflow and continuing from that premise would compound the mistake.
+
+Also report the finding when correction requires choosing between materially different behaviors or responsibilities rather than applying one already-determined rule.
+
+Explain the mistaken premise, the resulting direction that becomes unreliable, and the decision needed to resume safely.
+
 ## Complete the review
 
 Inspect the full effective skill definition before reporting findings.
-Report findings that require a change together after the review pass is complete.
-Treat a finding as requiring change when it exposes a material defect in intended behavior, coverage, consistency, recurring cost, or responsibility boundary.
+Report blocking findings together after the review pass is complete.
 Treat further precision that preserves the intended behavior as optional refinement.
-After reported findings are addressed, reassess the resulting definition against the same intended behavior and review criteria, and conclude the review when no material defect remains.
+After reported findings are addressed, reassess the resulting definition against the same intended behavior and review criteria, and conclude the review when no blocking mistaken premise remains.
