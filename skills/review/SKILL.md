@@ -45,10 +45,11 @@ Check existing text whose meaning changes because of the new behavior.
 
 ## Correct clear local defects
 
-Correct a defect during the review when the intended correction is uniquely determined by the existing purpose, rules, and referenced skills.
-Prefer direct correction when the change is local, preserves the intended behavior, and requires no new design, responsibility, compatibility, or policy decision.
-Continue the review after applying such corrections.
-Keep individually corrected local defects out of the blocking findings.
+Treat a defect as a local correction when the intended correction is uniquely determined by the existing purpose, rules, and referenced skills and requires no new design, responsibility, compatibility, or policy decision.
+When the current workflow permits modifying the target, apply the local correction directly.
+Otherwise, report the exact correction as a non-blocking item.
+Continue the review after applying or recording local corrections.
+Keep local corrections out of the blocking findings.
 
 ## Escalate mistaken premises
 
