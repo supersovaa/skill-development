@@ -1,13 +1,14 @@
 ---
 name: skill-definition-review
-description: Review skill definitions as complete behavioral specifications, checking activation, rule consistency, responsibility boundaries, phase scope, setup cost, and whether the whole skill expresses its intended behavior with a minimal rule set.
+description: Review skill definitions as complete behavioral specifications, correct clear local defects directly, and block only when a materially mistaken premise is being compounded across the skill or its surrounding workflow.
 ---
 
 # Skill Definition Review
 
 Use this skill when reviewing a `SKILL.md` file or an equivalent skill definition.
 
-Treat the changed skill as one complete behavioral specification.
+Treat the changed skill as one complete behavioral specification and keep it as the review target.
+Inspect related skills, repository structure, governing instructions, and setup artifacts when they are needed to judge that skill's activation, responsibility boundary, phase ownership, or recurring cost.
 Use the diff to understand the intended change, then judge the resulting full definition.
 
 ## Check activation
@@ -42,10 +43,25 @@ Identify the intended behavioral change from the request or review context.
 Trace that change through the frontmatter, usage guidance, relevant rules, and closing responsibility statement.
 Check existing text whose meaning changes because of the new behavior.
 
+## Correct clear local defects
+
+Treat a defect as a local correction when the intended correction is uniquely determined by the existing purpose, rules, and referenced skills and requires no new design, responsibility, compatibility, or policy decision.
+When the current workflow permits modifying the target, apply the local correction directly.
+Otherwise, report the exact correction as a non-blocking item.
+Continue the review after applying or recording local corrections.
+Keep local corrections out of the blocking findings.
+
+## Escalate mistaken premises
+
+Report a blocking finding when the reviewed change appears to build on a materially mistaken premise about the requested behavior, responsibility boundary, governing source, or workflow and continuing from that premise would compound the mistake.
+
+Treat a choice between materially different behaviors or responsibilities as blocking only when that choice exists because the reviewed change is already building on an unresolved or mistaken premise.
+
+Explain the mistaken premise, the resulting direction that becomes unreliable, and the decision needed to resume safely.
+
 ## Complete the review
 
 Inspect the full effective skill definition before reporting findings.
-Report findings that require a change together after the review pass is complete.
-Treat a finding as requiring change when it exposes a material defect in intended behavior, coverage, consistency, recurring cost, or responsibility boundary.
+Report blocking findings together after the review pass is complete.
 Treat further precision that preserves the intended behavior as optional refinement.
-After reported findings are addressed, reassess the resulting definition against the same intended behavior and review criteria, and conclude the review when no material defect remains.
+After reported findings are addressed, reassess the resulting definition against the same intended behavior and review criteria, and conclude the review when no blocking mistaken premise remains.

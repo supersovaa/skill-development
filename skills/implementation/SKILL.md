@@ -35,10 +35,10 @@ Persist only information that remains useful across normal executions.
 Make normal skill execution consume the prepared result directly.
 Keep setup small enough that maintaining it remains cheaper than repeating the work it replaces.
 
-## Keep repository structure scoped
+## Apply referenced skills
 
-Use short directory names when the parent repository already provides the shared meaning.
-Keep globally meaningful skill names in frontmatter where discovery requires them.
+Apply reusable skills selected by the development plan for concerns they own.
+Apply `scope-aligned-naming` to names within that skill's defined scope.
 Maintain a concise README when the repository contains multiple skills or setup steps.
 
 ## Validate the result
