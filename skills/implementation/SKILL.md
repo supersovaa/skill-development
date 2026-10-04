@@ -9,7 +9,8 @@ Use this skill after the skill-repository structure and responsibility boundarie
 
 ## Follow the settled boundaries
 
-Read the selected development plan and the current repository state.
+Read the selected development plan from the current work context or the durable planning artifact selected by the surrounding workflow.
+Read the current repository state.
 Implement the planned skill set and supporting files.
 Keep each skill focused on its assigned phase or coherent responsibility.
 Preserve existing public skill names when the plan selects compatibility.
@@ -51,7 +52,8 @@ Confirm that:
 - each skill definition uses the smallest rule set that preserves behavior;
 - repository documentation matches the implemented structure.
 
-Run the repository's established skill review process after implementation.
+Leave the resulting skill definitions ready for independent review by `skill-definition-review`.
 
 This skill owns implementation of the settled skill-repository plan.
 Planning belongs to `skill-development-planning`.
+Review belongs to `skill-definition-review`.
