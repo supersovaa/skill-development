@@ -25,7 +25,7 @@ Use the smallest set of skills that preserves those boundaries clearly.
 ## Keep the repository lightweight
 
 Prefer the minimum files and supporting artifacts required for reliable use.
-Apply `scope-aligned-naming` when choosing repository and path names.
+Apply `scope-aligned-naming` to names within that skill's defined scope.
 Reference existing reusable skills instead of copying their rules.
 
 ## Design setup around recurring cost
