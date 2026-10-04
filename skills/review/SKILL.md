@@ -1,6 +1,6 @@
 ---
 name: skill-definition-review
-description: Review skill definitions as complete behavioral specifications, using related repository structure, skills, governing instructions, and setup artifacts when needed to judge activation, responsibility boundaries, phase scope, recurring cost, and whether the target skill expresses its intended behavior with a minimal rule set.
+description: Review skill definitions as complete behavioral specifications, correct clear local defects directly, and block only when a materially mistaken premise is being compounded across the skill or its surrounding workflow.
 ---
 
 # Skill Definition Review
@@ -54,7 +54,7 @@ Keep individually corrected local defects out of the blocking findings.
 
 Report a blocking finding when the reviewed change appears to build on a materially mistaken premise about the requested behavior, responsibility boundary, governing source, or workflow and continuing from that premise would compound the mistake.
 
-Also report the finding when correction requires choosing between materially different behaviors or responsibilities rather than applying one already-determined rule.
+Treat a choice between materially different behaviors or responsibilities as blocking only when that choice exists because the reviewed change is already building on an unresolved or mistaken premise.
 
 Explain the mistaken premise, the resulting direction that becomes unreliable, and the decision needed to resume safely.
 
