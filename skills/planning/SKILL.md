@@ -30,10 +30,12 @@ Reference existing reusable skills instead of copying their rules.
 
 ## Preserve stable design context
 
-Identify the core idea that the repository or skill exists to preserve.
-Define each skill's responsibility boundary clearly enough that future changes can distinguish work that belongs there from adjacent concerns.
-Plan a concise repository README that records this stable design context.
-Keep executable behavior and detailed operational rules in `SKILL.md` rather than duplicating them in the README.
+Identify the core idea that the repository or skill exists to express.
+Define what each skill is responsible for.
+Identify adjacent concerns that are easy to confuse with that responsibility and name the skill that owns each concern.
+Describe the current responsibility allocation with affirmative ownership statements.
+Plan a concise repository README that records this design context at the responsibility level.
+Keep executable behavior and detailed operational rules in `SKILL.md`.
 
 ## Design setup around recurring cost
 
@@ -53,7 +55,8 @@ Use a negative statement when the negation itself carries an independent semanti
 Define:
 
 - the skills to create, retain, move, or revise;
-- the core idea and responsibility boundary of each skill;
+- the core idea and responsibility of each skill;
+- the ownership of adjacent concerns that need explicit distinction;
 - the phase relationship between skills;
 - the minimum repository structure;
 - the stable design context to preserve in the repository README;
