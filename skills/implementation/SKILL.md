@@ -55,7 +55,7 @@ Apply `scope-aligned-naming` to names within that skill's defined scope.
 Confirm that:
 
 - every planned responsibility has one clear owner;
-- adjacent concerns that need distinction name their responsible skill;
+- adjacent concerns that need distinction have an explicit owner;
 - phase boundaries remain explicit;
 - normal execution carries only the context it needs;
 - setup removes recurring work where intended;
