@@ -1,6 +1,6 @@
 ---
 name: skill-development-implementation
-description: Implement a settled skill-repository plan with minimal files, phase-focused skill definitions, direct positive rules, and setup that keeps normal skill use lightweight.
+description: Implement a settled skill-repository plan with minimal files, phase-focused skill definitions, stable responsibility context in the README, direct positive rules, and setup that keeps normal skill use lightweight.
 ---
 
 # Skill Development Implementation
@@ -35,21 +35,32 @@ Persist only information that remains useful across normal executions.
 Make normal skill execution consume the prepared result directly.
 Keep setup small enough that maintaining it remains cheaper than repeating the work it replaces.
 
+## Document stable design context
+
+Create or maintain a concise repository README for a published skill repository.
+Record the core idea that the repository or skill exists to express.
+Record what each skill is responsible for.
+For adjacent concerns that need explicit distinction, record their actual owner.
+Write responsibility boundaries as affirmative ownership statements.
+Name the owning skill when one is already selected; otherwise assign the concern to a separate skill responsibility.
+Keep the README at the responsibility level and place executable behavior and detailed operational rules in `SKILL.md`.
+
 ## Apply referenced skills
 
 Apply reusable skills selected by the development plan for concerns they own.
 Apply `scope-aligned-naming` to names within that skill's defined scope.
-Maintain a concise README when the repository contains multiple skills or setup steps.
 
 ## Validate the result
 
 Confirm that:
 
 - every planned responsibility has one clear owner;
+- adjacent concerns that need distinction have an explicit owner;
 - phase boundaries remain explicit;
 - normal execution carries only the context it needs;
 - setup removes recurring work where intended;
 - each skill definition uses the smallest rule set that preserves behavior;
+- the README records the settled core idea and current responsibility allocation;
 - repository documentation matches the implemented structure.
 
 Leave the resulting skill definitions ready for independent review by `skill-definition-review`.

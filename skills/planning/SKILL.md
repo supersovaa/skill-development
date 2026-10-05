@@ -1,6 +1,6 @@
 ---
 name: skill-development-planning
-description: Plan a lightweight skill repository by checking existing skills first, defining coherent phase boundaries, choosing the minimum supporting structure, and moving stable repeated work into setup when that reduces normal-use cost.
+description: Plan a lightweight skill repository by checking existing skills first, defining coherent phase boundaries, choosing the minimum supporting structure, preserving stable responsibility context in the README, and moving repeated stable work into setup when that reduces normal-use cost.
 ---
 
 # Skill Development Planning
@@ -28,6 +28,16 @@ Prefer the minimum files and supporting artifacts required for reliable use.
 Apply `scope-aligned-naming` to names within that skill's defined scope.
 Reference existing reusable skills instead of copying their rules.
 
+## Preserve stable design context
+
+Identify the core idea that the repository or skill exists to express.
+Define what each skill is responsible for.
+Identify adjacent concerns that are easy to confuse with that responsibility and assign each concern to its actual owner.
+Describe the current responsibility allocation with affirmative ownership statements.
+Name the owning skill when one is already selected; otherwise assign the concern to a separate skill responsibility.
+Plan a concise repository README that records this design context at the responsibility level.
+Keep executable behavior and detailed operational rules in `SKILL.md`.
+
 ## Design setup around recurring cost
 
 Identify discovery, classification, or configuration that would otherwise repeat during normal skill use.
@@ -46,9 +56,11 @@ Use a negative statement when the negation itself carries an independent semanti
 Define:
 
 - the skills to create, retain, move, or revise;
-- the responsibility of each skill;
+- the core idea and responsibility of each skill;
+- the ownership of adjacent concerns that need explicit distinction;
 - the phase relationship between skills;
 - the minimum repository structure;
+- the stable design context to preserve in the repository README;
 - any installation-time or introduction-time setup;
 - existing skills that remain dependencies or review tools;
 - compatibility decisions for existing skill names and entry points.
