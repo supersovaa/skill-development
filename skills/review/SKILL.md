@@ -23,6 +23,15 @@ Check the applicability of each rule, especially distinctions between different 
 Check for duplicated behavior, conflicting instructions, uncovered cases, and broad rules that override narrower intended behavior.
 Prefer direct positive rules and compact closed boundaries.
 
+## Challenge exceptions
+
+For every exception, identify the concrete current requirement or external constraint that requires it.
+Treat an exception without such support as a defect and prefer removing it or replacing it with a coherent general rule.
+Check whether refining the rule's scope or expressing a narrower general rule eliminates the exception.
+Do not accept convenience, hypothetical future compatibility, or isolated implementation ease as justification.
+Do not infer additional exception cases from an existing exception.
+When exceptions cluster, treat that as evidence that the governing rule or responsibility boundary may be wrong and escalate when correction requires a design decision.
+
 ## Check responsibility boundaries
 
 Confirm that the skill governs one coherent concern.
