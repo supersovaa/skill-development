@@ -51,6 +51,13 @@ Write rules as the action, preference, condition, or closed boundary the agent s
 Prefer forms such as "use", "choose", "keep", "require", and "use only".
 Use a negative statement when the negation itself carries an independent semantic constraint.
 
+## Resist exceptions
+
+Prefer rules that apply consistently across their stated scope.
+Justify an exception only with a concrete current requirement or external constraint that cannot be represented by refining the rule's scope or by a narrower general rule.
+Make every accepted exception explicit and scope it exactly to the requirement or constraint that justifies it.
+When multiple exceptions appear necessary, redesign the governing rule or responsibility boundary instead of accumulating them.
+
 ## Produce the development plan
 
 Define:
