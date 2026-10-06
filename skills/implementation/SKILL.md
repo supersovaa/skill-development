@@ -31,10 +31,9 @@ Use negative wording when absence, prohibition, or unsupported behavior is itsel
 ## Avoid unplanned exceptions
 
 Implement settled rules consistently across their stated scope.
-Add an exception only when the settled plan requires it or a concrete current requirement or external constraint makes it unavoidable.
-Before adding an exception, first determine whether refining the rule's scope or expressing a narrower general rule resolves the case.
-Do not extend an accepted exception to adjacent cases without the same supporting requirement or constraint.
-When implementation reveals multiple exceptions, return the governing rule or responsibility boundary to planning instead of accumulating exceptions.
+Implement an exception only when the settled plan explicitly defines it or when a concrete current requirement or external constraint makes it unavoidable and no refined scope or narrower general rule resolves the case.
+Scope every accepted exception exactly to the requirement or constraint that justifies it.
+When implementation reveals an unplanned exception or multiple exceptions, return the governing rule or responsibility boundary to planning instead of deciding the exception locally.
 
 ## Implement setup where planned
 
