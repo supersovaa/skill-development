@@ -54,10 +54,9 @@ Use a negative statement when the negation itself carries an independent semanti
 ## Resist exceptions
 
 Prefer rules that apply consistently across their stated scope.
-Treat an exception as justified only when a concrete current requirement or external constraint cannot be represented by refining the rule's scope or by a narrower general rule.
-Reject exceptions motivated only by convenience, hypothetical future cases, or isolated ease of implementation.
-When multiple exceptions appear necessary, reconsider the governing rule or responsibility boundary before adding them.
-Make every accepted exception explicit and scope it to the requirement or constraint that justifies it.
+Justify an exception only with a concrete current requirement or external constraint that cannot be represented by refining the rule's scope or by a narrower general rule.
+Make every accepted exception explicit and scope it exactly to the requirement or constraint that justifies it.
+When multiple exceptions appear necessary, redesign the governing rule or responsibility boundary instead of accumulating them.
 
 ## Produce the development plan
 
