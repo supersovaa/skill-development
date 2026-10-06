@@ -28,6 +28,14 @@ State the expected action or boundary directly.
 Prefer affirmative forms such as "use only", "choose", "keep", "require", and "prefer".
 Use negative wording when absence, prohibition, or unsupported behavior is itself the operative fact.
 
+## Avoid unplanned exceptions
+
+Implement settled rules consistently across their stated scope.
+Add an exception only when the settled plan requires it or a concrete current requirement or external constraint makes it unavoidable.
+Before adding an exception, first determine whether refining the rule's scope or expressing a narrower general rule resolves the case.
+Do not extend an accepted exception to adjacent cases without the same supporting requirement or constraint.
+When implementation reveals multiple exceptions, return the governing rule or responsibility boundary to planning instead of accumulating exceptions.
+
 ## Implement setup where planned
 
 Create installation-time or repository-introduction setup when the plan assigns stable repeated work there.
