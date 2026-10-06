@@ -25,11 +25,9 @@ Prefer direct positive rules and compact closed boundaries.
 
 ## Challenge exceptions
 
-For every exception, identify the concrete current requirement or external constraint that requires it.
-Treat an exception without such support as a defect and prefer removing it or replacing it with a coherent general rule.
-Check whether refining the rule's scope or expressing a narrower general rule eliminates the exception.
-Do not accept convenience, hypothetical future compatibility, or isolated implementation ease as justification.
-Do not infer additional exception cases from an existing exception.
+For every exception, require a concrete current requirement or external constraint and evidence that refining the rule's scope or expressing a narrower general rule does not resolve the case.
+Treat an exception without that support as a defect and prefer removing it or replacing it with a coherent general rule.
+Accept an exception only for cases covered by the same supporting requirement or constraint.
 When exceptions cluster, treat that as evidence that the governing rule or responsibility boundary may be wrong and escalate when correction requires a design decision.
 
 ## Check responsibility boundaries
