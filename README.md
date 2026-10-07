@@ -6,7 +6,7 @@ Each skill owns one phase. Later phases use the settled output of earlier phases
 
 ## Skills
 
-- `skill-development-planning`: decide whether an existing skill is sufficient, define the smallest repository and skill boundaries, and choose setup that reduces recurring work.
+- `skill-development-planning`: start skill creation, modification, extension, or restructuring by checking whether existing skills are sufficient, defining the smallest repository and skill boundaries, and choosing setup that reduces recurring work.
 - `skill-development-implementation`: implement the settled skill structure with compact, direct instructions and any selected setup.
 - `skill-definition-review`: review the resulting skill definitions as complete behavioral specifications.
 
