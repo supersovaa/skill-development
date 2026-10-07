@@ -47,7 +47,8 @@ Keep setup small enough that maintaining it remains cheaper than repeating the w
 Create or maintain a concise repository README for a published skill repository.
 Record the core idea that the repository or skill exists to express.
 Record what each skill is responsible for.
-Record when each published skill should be activated.
+Record when each published skill should be activated from externally recognizable task intent and responsibility boundaries.
+Keep body-specific prerequisites, internal decision criteria, execution steps, and post-activation checks in `SKILL.md` unless they select a different responsible skill.
 Record how to install the published skill set into its target skill system.
 For adjacent concerns that need explicit distinction, record their actual owner.
 Write responsibility boundaries as affirmative ownership statements.
@@ -71,6 +72,7 @@ Confirm that:
 - each skill definition uses the smallest rule set that preserves behavior;
 - the README records the settled core idea and current responsibility allocation;
 - the README states when every published skill should be activated;
+- each README activation condition is no narrower than required to select the correct responsibility and does not inherit internal body conditions;
 - the README provides an installation method that matches the implemented repository layout and target skill system;
 - repository documentation matches the implemented structure.
 
