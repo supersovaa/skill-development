@@ -13,8 +13,8 @@ Each skill owns one phase. Later phases use the settled output of earlier phases
 ## When to use
 
 - Use `skill-development-planning` when deciding how a skill repository should be structured, divided, documented, or set up.
-- Use `skill-development-implementation` when implementing changes in a skill repository.
-- Use `skill-definition-review` when reviewing a skill definition or skill-repository change.
+- Use `skill-development-implementation` when carrying out an already-decided change in a skill repository.
+- Use `skill-definition-review` when reviewing a skill definition, including the README guidance that publishes its activation and installation.
 
 ## Installation
 
@@ -32,8 +32,9 @@ Use existing skills for concerns they already own.
 Keep repository-specific setup proportional to the recurring work it removes.
 Preserve stable public context in the repository README: the core idea, each skill's responsibility, when each skill should be activated, how to install the published skills, and ownership of adjacent concerns that are easy to confuse with them.
 Base activation guidance on externally recognizable task intent and responsibility boundaries.
+Use the same activation boundary in the README, the skill frontmatter description, and the opening usage guidance.
 Keep body-specific prerequisites, internal decision criteria, execution steps, and post-activation checks in `SKILL.md` unless one of them is itself the boundary between skills.
-Prefer activating the owning skill and letting it evaluate its internal conditions over encoding those conditions into README routing.
+Prefer activating the owning skill and letting it evaluate its internal conditions over encoding those conditions into activation routing.
 Express responsibility boundaries through affirmative ownership statements.
 Name the owning skill when one is already selected; otherwise assign the concern to a separate skill responsibility.
 Keep operational behavior in `SKILL.md`.
