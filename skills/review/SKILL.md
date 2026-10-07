@@ -1,6 +1,6 @@
 ---
 name: skill-definition-review
-description: Review skill definitions as complete behavioral specifications, correct clear local defects directly, and block only when a materially mistaken premise is being compounded across the skill or its surrounding workflow.
+description: Review skill definitions as complete behavioral specifications, verify their published README activation and installation guidance, correct clear local defects directly, and block only when a materially mistaken premise is being compounded across the skill or its surrounding workflow.
 ---
 
 # Skill Definition Review
@@ -8,13 +8,20 @@ description: Review skill definitions as complete behavioral specifications, cor
 Use this skill when reviewing a `SKILL.md` file or an equivalent skill definition.
 
 Treat the changed skill as one complete behavioral specification and keep it as the review target.
-Inspect related skills, repository structure, governing instructions, and setup artifacts when they are needed to judge that skill's activation, responsibility boundary, phase ownership, or recurring cost.
+Inspect related skills, repository structure, governing instructions, public README guidance, and setup artifacts when they are needed to judge that skill's activation, responsibility boundary, phase ownership, installation contract, or recurring cost.
 Use the diff to understand the intended change, then judge the resulting full definition.
 
 ## Check activation
 
 Review the frontmatter description together with the opening usage guidance.
 Confirm that they express the skill's purpose, applicable situations, and important distinctions introduced by the body.
+
+## Check the published README
+
+When the reviewed skill is published from a repository, confirm that the repository README states when each published skill should be activated.
+Confirm that the README explains how to install the published skill set.
+Confirm that the activation and installation guidance matches the skill definitions, repository layout, and target skill system.
+Keep detailed operational behavior in the skill definitions rather than duplicating it into the README.
 
 ## Check the rule system
 
