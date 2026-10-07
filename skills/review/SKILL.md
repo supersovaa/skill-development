@@ -20,6 +20,8 @@ Confirm that they express the skill's purpose, applicable situations, and import
 
 When the reviewed skill is published from a repository, confirm that the repository README states when each published skill should be activated.
 Confirm that the README explains how to install the published skill set.
+Compare each activation condition with the skill's responsibility boundary.
+Treat an activation condition as too narrow when it requires a prerequisite, internal decision, execution step, or check that the skill itself can perform after activation and that condition is not needed to select a different owner.
 Confirm that the activation and installation guidance matches the skill definitions, repository layout, and target skill system.
 Keep detailed operational behavior in the skill definitions rather than duplicating it into the README.
 
