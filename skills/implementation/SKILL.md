@@ -5,7 +5,7 @@ description: Implement a settled skill-repository plan with minimal files, phase
 
 # Skill Development Implementation
 
-Use this skill after the skill-repository structure and responsibility boundaries are settled.
+Use this skill when carrying out an already-decided change in a repository that publishes one or more skills.
 
 ## Follow the settled boundaries
 
@@ -48,6 +48,7 @@ Create or maintain a concise repository README for a published skill repository.
 Record the core idea that the repository or skill exists to express.
 Record what each skill is responsible for.
 Record when each published skill should be activated from externally recognizable task intent and responsibility boundaries.
+Use the same activation boundary in the repository README, the skill frontmatter description, and the opening usage guidance.
 Keep body-specific prerequisites, internal decision criteria, execution steps, and post-activation checks in `SKILL.md` unless they select a different responsible skill.
 Record how to install the published skill set into its target skill system.
 For adjacent concerns that need explicit distinction, record their actual owner.
@@ -72,7 +73,8 @@ Confirm that:
 - each skill definition uses the smallest rule set that preserves behavior;
 - the README records the settled core idea and current responsibility allocation;
 - the README states when every published skill should be activated;
-- each README activation condition is no narrower than required to select the correct responsibility and does not inherit internal body conditions;
+- the README, frontmatter description, and opening usage guidance use the same activation boundary;
+- each activation condition is no narrower than required to select the correct responsibility and does not inherit internal body conditions;
 - the README provides an installation method that matches the implemented repository layout and target skill system;
 - repository documentation matches the implemented structure.
 
