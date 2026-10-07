@@ -32,7 +32,8 @@ Reference existing reusable skills instead of copying their rules.
 
 Identify the core idea that the repository or skill exists to express.
 Define what each skill is responsible for.
-Define when each published skill should be activated from user-visible situations.
+Define when each published skill should be activated from externally recognizable task intent and responsibility boundaries.
+Keep prerequisites, internal decision criteria, execution steps, and checks that the skill can perform after activation out of the activation condition unless they select a different responsible skill.
 Define the installation method that makes each published skill available to its target system.
 Identify adjacent concerns that are easy to confuse with each responsibility and assign each concern to its actual owner.
 Describe the current responsibility allocation with affirmative ownership statements.
@@ -70,7 +71,7 @@ Define:
 - the phase relationship between skills;
 - the minimum repository structure;
 - the stable design context to preserve in the repository README;
-- the README activation guidance for each published skill;
+- the README activation guidance for each published skill, expressed as the broadest externally recognizable condition that still selects the correct responsibility;
 - the README installation method for the published skill set;
 - any installation-time or introduction-time setup;
 - existing skills that remain dependencies or review tools;
