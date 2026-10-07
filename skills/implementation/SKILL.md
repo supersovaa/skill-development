@@ -1,6 +1,6 @@
 ---
 name: skill-development-implementation
-description: Implement a settled skill-repository plan with minimal files, phase-focused skill definitions, README responsibility, activation, and installation context, direct positive rules, and setup that keeps normal skill use lightweight.
+description: Implement an already-decided skill-repository change with minimal files, phase-focused skill definitions, README responsibility, activation, and installation context, direct positive rules, and setup that keeps normal skill use lightweight.
 ---
 
 # Skill Development Implementation
