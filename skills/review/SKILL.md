@@ -13,15 +13,16 @@ Use the diff to understand the intended change, then judge the resulting full de
 
 ## Check activation
 
-Review the frontmatter description together with the opening usage guidance.
-Confirm that they express the skill's purpose, applicable situations, and important distinctions introduced by the body.
+Treat the frontmatter description and opening usage guidance as activation-routing surfaces.
+Confirm that they identify the skill from externally recognizable task intent and responsibility boundaries.
+Treat an activation condition as too narrow when it requires a prerequisite, internal decision, execution step, or check that the skill itself can perform after activation and that condition is not needed to select a different owner.
+Keep body-specific applicability and execution conditions in the body unless they define the responsibility boundary between skills.
 
 ## Check the published README
 
 When the reviewed skill is published from a repository, confirm that the repository README states when each published skill should be activated.
 Confirm that the README explains how to install the published skill set.
-Compare each activation condition with the skill's responsibility boundary.
-Treat an activation condition as too narrow when it requires a prerequisite, internal decision, execution step, or check that the skill itself can perform after activation and that condition is not needed to select a different owner.
+Confirm that README activation guidance uses the same responsibility boundary as the corresponding frontmatter description and opening usage guidance.
 Confirm that the activation and installation guidance matches the skill definitions, repository layout, and target skill system.
 Keep detailed operational behavior in the skill definitions rather than duplicating it into the README.
 
