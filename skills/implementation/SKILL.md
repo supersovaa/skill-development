@@ -1,6 +1,6 @@
 ---
 name: skill-development-implementation
-description: Implement a settled skill-repository plan with minimal files, phase-focused skill definitions, stable responsibility context in the README, direct positive rules, and setup that keeps normal skill use lightweight.
+description: Implement a settled skill-repository plan with minimal files, phase-focused skill definitions, README responsibility, activation, and installation context, direct positive rules, and setup that keeps normal skill use lightweight.
 ---
 
 # Skill Development Implementation
@@ -47,10 +47,12 @@ Keep setup small enough that maintaining it remains cheaper than repeating the w
 Create or maintain a concise repository README for a published skill repository.
 Record the core idea that the repository or skill exists to express.
 Record what each skill is responsible for.
+Record when each published skill should be activated.
+Record how to install the published skill set into its target skill system.
 For adjacent concerns that need explicit distinction, record their actual owner.
 Write responsibility boundaries as affirmative ownership statements.
 Name the owning skill when one is already selected; otherwise assign the concern to a separate skill responsibility.
-Keep the README at the responsibility level and place executable behavior and detailed operational rules in `SKILL.md`.
+Keep the README at the responsibility and usage-entry level and place executable behavior and detailed operational rules in `SKILL.md`.
 
 ## Apply referenced skills
 
@@ -68,6 +70,8 @@ Confirm that:
 - setup removes recurring work where intended;
 - each skill definition uses the smallest rule set that preserves behavior;
 - the README records the settled core idea and current responsibility allocation;
+- the README states when every published skill should be activated;
+- the README provides an installation method that matches the implemented repository layout and target skill system;
 - repository documentation matches the implemented structure.
 
 Leave the resulting skill definitions ready for independent review by `skill-definition-review`.
