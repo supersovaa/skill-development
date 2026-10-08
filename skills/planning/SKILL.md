@@ -1,11 +1,11 @@
 ---
 name: skill-development-planning
-description: Plan a lightweight skill repository by checking existing skills first, defining coherent phase boundaries, choosing the minimum supporting structure, preserving stable responsibility context in the README, and moving repeated stable work into setup when that reduces normal-use cost.
+description: Plan a lightweight skill repository by checking existing skills first, defining coherent phase boundaries, choosing the minimum supporting structure, preserving responsibility, activation, and installation context in the README, and moving repeated stable work into setup when that reduces normal-use cost.
 ---
 
 # Skill Development Planning
 
-Use this skill when creating or restructuring a repository that publishes one or more skills.
+Use this skill when deciding how a repository that publishes one or more skills should be structured, divided, documented, or set up.
 
 ## Start from existing capabilities
 
@@ -32,10 +32,14 @@ Reference existing reusable skills instead of copying their rules.
 
 Identify the core idea that the repository or skill exists to express.
 Define what each skill is responsible for.
-Identify adjacent concerns that are easy to confuse with that responsibility and assign each concern to its actual owner.
+Define when each published skill should be activated from externally recognizable task intent and responsibility boundaries.
+Use the same activation boundary in the repository README, the skill frontmatter description, and the opening usage guidance.
+Keep prerequisites, internal decision criteria, execution steps, and checks that the skill can perform after activation out of the activation condition unless they select a different responsible skill.
+Define the installation method that makes each published skill available to its target system.
+Identify adjacent concerns that are easy to confuse with each responsibility and assign each concern to its actual owner.
 Describe the current responsibility allocation with affirmative ownership statements.
 Name the owning skill when one is already selected; otherwise assign the concern to a separate skill responsibility.
-Plan a concise repository README that records this design context at the responsibility level.
+Plan a concise repository README that records this design context, activation guidance, and installation method.
 Keep executable behavior and detailed operational rules in `SKILL.md`.
 
 ## Design setup around recurring cost
@@ -68,6 +72,8 @@ Define:
 - the phase relationship between skills;
 - the minimum repository structure;
 - the stable design context to preserve in the repository README;
+- the activation boundary for each published skill and its matching README, frontmatter, and opening guidance;
+- the README installation method for the published skill set;
 - any installation-time or introduction-time setup;
 - existing skills that remain dependencies or review tools;
 - compatibility decisions for existing skill names and entry points.
