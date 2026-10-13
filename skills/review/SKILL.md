@@ -59,7 +59,7 @@ Confirm that setup artifacts provide recurring value proportional to their maint
 Identify the intended behavioral change from the request or review context.
 Trace that change through the frontmatter, usage guidance, relevant rules, and closing responsibility statement.
 Check whether affected existing rules were replaced, consolidated, or removed when the change makes them outdated, overlapping, or redundant.
-Confirm that added rules express independent requirements rather than qualifications or duplicates of existing rules.
+Confirm that each added rule expresses an independent requirement that cannot be stated more directly by revising an existing rule.
 
 ## Correct clear local defects
 
