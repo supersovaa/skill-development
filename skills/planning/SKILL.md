@@ -11,7 +11,8 @@ Use this skill when deciding how a repository that publishes one or more skills 
 
 Inspect relevant existing skills before defining new ones.
 Reuse an existing skill when it already provides the required behavior.
-Extend an existing skill when the new behavior belongs to the same coherent responsibility.
+Revise an existing skill when the requested behavior belongs to the same coherent responsibility.
+For revisions, identify the existing rules that govern the behavior and plan the resulting rule system: replace changed rules, consolidate overlapping rules, remove superseded rules, and add rules for independent requirements.
 Create a new skill when the required behavior has its own responsibility or execution phase.
 
 ## Define phase boundaries
@@ -66,7 +67,7 @@ When multiple exceptions appear necessary, redesign the governing rule or respon
 
 Define:
 
-- the skills to create, retain, move, or revise;
+- the skills to create, retain, move, or revise, including affected existing rules and any independent rules needed for revisions;
 - the core idea and responsibility of each skill;
 - the ownership of adjacent concerns that need explicit distinction;
 - the phase relationship between skills;
