@@ -10,14 +10,16 @@ Use this skill when carrying out an already-decided change in a repository that 
 ## Follow the settled boundaries
 
 Read the selected development plan from the current work context or the durable planning artifact selected by the surrounding workflow.
-Read the current repository state.
+Read the current repository state and the complete definitions of skills being revised.
 Implement the planned skill set and supporting files.
 Keep each skill focused on its assigned phase or coherent responsibility.
 Preserve existing public skill names when the plan selects compatibility.
 
 ## Keep definitions compact
 
-Include behavior that materially affects execution.
+Implement changed behavior by replacing or consolidating the existing rules that govern it and removing superseded text.
+Add rules for independent requirements that existing rules do not cover.
+Keep only behavior that materially affects execution.
 Reference shared or existing skills when they already own a rule.
 Prefer one direct rule over several equivalent clarifications.
 Represent current requirements and current workflow rather than speculative future cases.
@@ -70,6 +72,7 @@ Confirm that:
 - phase boundaries remain explicit;
 - normal execution carries only the context it needs;
 - setup removes recurring work where intended;
+- revisions update existing rules where applicable and add rules only for independent requirements;
 - each skill definition uses the smallest rule set that preserves behavior;
 - the README records the settled core idea and current responsibility allocation;
 - the README states when every published skill should be activated;

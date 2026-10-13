@@ -6,13 +6,13 @@ Each skill owns one phase. Later phases use the settled output of earlier phases
 
 ## Skills
 
-- `skill-development-planning`: decide whether an existing skill is sufficient, define the smallest repository and skill boundaries, and choose setup that reduces recurring work.
+- `skill-development-planning`: plan skill creation or revision from existing capabilities and rules, define minimal skill and repository boundaries, and choose setup that reduces recurring work.
 - `skill-development-implementation`: implement the settled skill structure with compact, direct instructions and any selected setup.
 - `skill-definition-review`: review the resulting skill definitions as complete behavioral specifications.
 
 ## When to use
 
-- Use `skill-development-planning` when deciding how a skill repository should be structured, divided, documented, or set up.
+- Use `skill-development-planning` when planning the creation or revision of a skill, or the structure, division, documentation, or setup of a repository that publishes skills.
 - Use `skill-development-implementation` when carrying out an already-decided change in a skill repository.
 - Use `skill-definition-review` when reviewing a skill definition, including the README guidance that publishes its activation and installation.
 
@@ -27,6 +27,7 @@ Install all three when using the complete planning, implementation, and review w
 Prefer the smallest set of skills that expresses the workflow clearly.
 Split skills when work phases have materially different inputs, decisions, or outputs.
 Prefer direct positive rules that state the desired action or boundary.
+When revising a skill, update affected rules through replacement, consolidation, or removal, and add rules for independent requirements.
 Move stable repeated discovery into installation-time setup when that makes normal skill use lighter.
 Use existing skills for concerns they already own.
 Keep repository-specific setup proportional to the recurring work it removes.

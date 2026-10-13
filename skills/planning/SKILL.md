@@ -1,17 +1,18 @@
 ---
 name: skill-development-planning
-description: Plan a lightweight skill repository by checking existing skills first, defining coherent phase boundaries, choosing the minimum supporting structure, preserving responsibility, activation, and installation context in the README, and moving repeated stable work into setup when that reduces normal-use cost.
+description: Plan the creation or revision of skills and the structure, division, documentation, or setup of their repositories by inspecting existing capabilities and affected rules, choosing coherent boundaries and minimal support, and preserving stable design context in the README.
 ---
 
 # Skill Development Planning
 
-Use this skill when deciding how a repository that publishes one or more skills should be structured, divided, documented, or set up.
+Use this skill when planning the creation or revision of a skill, or the structure, division, documentation, or setup of a repository that publishes skills.
 
 ## Start from existing capabilities
 
 Inspect relevant existing skills before defining new ones.
 Reuse an existing skill when it already provides the required behavior.
-Extend an existing skill when the new behavior belongs to the same coherent responsibility.
+Revise an existing skill when the requested behavior belongs to the same coherent responsibility.
+For revisions, identify the existing rules that govern the behavior and plan the resulting rule system: replace changed rules, consolidate overlapping rules, remove superseded rules, and add rules for independent requirements.
 Create a new skill when the required behavior has its own responsibility or execution phase.
 
 ## Define phase boundaries
@@ -66,7 +67,7 @@ When multiple exceptions appear necessary, redesign the governing rule or respon
 
 Define:
 
-- the skills to create, retain, move, or revise;
+- the skills to create, retain, move, or revise, including affected existing rules and any independent rules needed for revisions;
 - the core idea and responsibility of each skill;
 - the ownership of adjacent concerns that need explicit distinction;
 - the phase relationship between skills;
