@@ -27,6 +27,7 @@ Install all three when using the complete planning, implementation, and review w
 Prefer the smallest set of skills that expresses the workflow clearly.
 Split skills when work phases have materially different inputs, decisions, or outputs.
 Prefer direct positive rules that state the desired action or boundary.
+When revising a skill, update affected rules through replacement, consolidation, or removal, and add rules for independent requirements.
 Move stable repeated discovery into installation-time setup when that makes normal skill use lighter.
 Use existing skills for concerns they already own.
 Keep repository-specific setup proportional to the recurring work it removes.
