@@ -1,11 +1,11 @@
 ---
 name: skill-development-planning
-description: Plan a lightweight skill repository by checking existing skills first, defining coherent phase boundaries, choosing the minimum supporting structure, preserving responsibility, activation, and installation context in the README, and moving repeated stable work into setup when that reduces normal-use cost.
+description: Plan the creation or revision of skills and the structure, division, documentation, or setup of their repositories by inspecting existing capabilities and affected rules, choosing coherent boundaries and minimal support, and preserving stable design context in the README.
 ---
 
 # Skill Development Planning
 
-Use this skill when deciding how a repository that publishes one or more skills should be structured, divided, documented, or set up.
+Use this skill when planning the creation or revision of a skill, or the structure, division, documentation, or setup of a repository that publishes skills.
 
 ## Start from existing capabilities
 
