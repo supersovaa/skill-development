@@ -1,15 +1,13 @@
 ---
 name: skill-definition-review
-description: Review skill definitions as complete behavioral specifications, verify their published README activation and installation guidance, correct clear local defects directly, and block only when a materially mistaken premise is being compounded across the skill or its surrounding workflow.
+description: Review a skill’s full behavior and its README activation and installation guidance. Fix clear local defects and identify blocking mistaken premises.
 ---
 
 # Skill Definition Review
 
-Use this skill when reviewing a `SKILL.md` file or an equivalent skill definition.
+Review the resulting `SKILL.md` or equivalent definition as a complete behavioral specification. Use the diff to identify the intended change.
 
-Treat the changed skill as one complete behavioral specification and keep it as the review target.
-Inspect related skills, repository structure, governing instructions, public README guidance, and setup artifacts when they are needed to judge that skill's activation, responsibility boundary, phase ownership, installation contract, or recurring cost.
-Use the diff to understand the intended change, then judge the resulting full definition.
+Inspect related skills, the repository layout, governing instructions, the public README, and setup artifacts as needed to judge activation, responsibility and phase boundaries, installation, or recurring cost.
 
 ## Check activation
 
