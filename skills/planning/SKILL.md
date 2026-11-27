@@ -1,11 +1,11 @@
 ---
 name: skill-development-planning
-description: Plan the creation or revision of skills and the structure, division, documentation, or setup of their repositories by inspecting existing capabilities and affected rules, choosing coherent boundaries and minimal support, and preserving stable design context in the README.
+description: Plan new or revised skills and their repository structure, responsibility boundaries, documentation, and setup.
 ---
 
 # Skill Development Planning
 
-Use this skill when planning the creation or revision of a skill, or the structure, division, documentation, or setup of a repository that publishes skills.
+Plan changes to new or existing skills and to the repositories that publish them. Cover the structure, division of responsibilities, documentation, or setup affected by the request.
 
 ## Start from existing capabilities
 
