@@ -1,11 +1,11 @@
 ---
 name: skill-development-implementation
-description: Implement an already-decided skill-repository change with minimal files, phase-focused skill definitions, README responsibility, activation, and installation context, direct positive rules, and setup that keeps normal skill use lightweight.
+description: Implement a settled change to a skill repository, including its skill definitions, README guidance, and planned setup.
 ---
 
 # Skill Development Implementation
 
-Use this skill when carrying out an already-decided change in a repository that publishes one or more skills.
+Start from the settled plan for a change to a repository that publishes one or more skills.
 
 ## Follow the settled boundaries
 
