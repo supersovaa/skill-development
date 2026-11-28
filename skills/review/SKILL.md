@@ -1,11 +1,11 @@
 ---
 name: skill-definition-review
-description: Review a skill’s full behavior and its README activation and installation guidance. Fix clear local defects and identify blocking mistaken premises.
+description: Use when reviewing a skill definition or its published activation and installation guidance.
 ---
 
 # Skill Definition Review
 
-Review the resulting `SKILL.md` or equivalent definition as a complete behavioral specification. Use the diff to identify the intended change.
+Review the resulting `SKILL.md` or equivalent as a complete behavioral specification. When reviewing a change, use its diff to identify the intended behavior.
 
 Inspect related skills, the repository layout, governing instructions, the public README, and setup artifacts as needed to judge activation, responsibility and phase boundaries, installation, or recurring cost.
 
@@ -14,7 +14,7 @@ Inspect related skills, the repository layout, governing instructions, the publi
 Treat the frontmatter description and opening usage guidance as activation-routing surfaces.
 Confirm that they identify the skill from externally recognizable task intent and responsibility boundaries.
 Treat an activation condition as too narrow when it requires a prerequisite, internal decision, execution step, or check that the skill itself can perform after activation and that condition is not needed to select a different owner.
-Keep body-specific applicability and execution conditions in the body unless they define the responsibility boundary between skills.
+Check a normal request for the work type that does not mention the issue the skill can discover. It should select the skill. Then check cases with and without that issue: only the applicable procedure should run. Keep conditions that distinguish different owners at the entry.
 
 ## Check the published README
 
