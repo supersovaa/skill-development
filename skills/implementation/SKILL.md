@@ -1,11 +1,11 @@
 ---
 name: skill-development-implementation
-description: Implement an already-decided skill-repository change with minimal files, phase-focused skill definitions, README responsibility, activation, and installation context, direct positive rules, and setup that keeps normal skill use lightweight.
+description: Use when carrying out a planned change in a repository that publishes skills, including definitions, public guidance, and setup.
 ---
 
 # Skill Development Implementation
 
-Use this skill when carrying out an already-decided change in a repository that publishes one or more skills.
+Start from the settled development plan. Apply the definition, documentation, and setup rules below to the components that plan changes.
 
 ## Follow the settled boundaries
 
@@ -51,7 +51,7 @@ Record the core idea that the repository or skill exists to express.
 Record what each skill is responsible for.
 Record when each published skill should be activated from externally recognizable task intent and responsibility boundaries.
 Use the same activation boundary in the repository README, the skill frontmatter description, and the opening usage guidance.
-Keep body-specific prerequisites, internal decision criteria, execution steps, and post-activation checks in `SKILL.md` unless they select a different responsible skill.
+Write the entry around the kind of work the user or enclosing workflow requests. In the body, put each conditional procedure with the condition that makes it applicable. Include a prerequisite in the entry only when it distinguishes the responsible skill.
 Record how to install the published skill set into its target skill system.
 For adjacent concerns that need explicit distinction, record their actual owner.
 Write responsibility boundaries as affirmative ownership statements.
