@@ -1,11 +1,11 @@
 ---
 name: skill-development-planning
-description: Plan the creation or revision of skills and the structure, division, documentation, or setup of their repositories by inspecting existing capabilities and affected rules, choosing coherent boundaries and minimal support, and preserving stable design context in the README.
+description: Use when planning the creation or revision of skills or the structure, documentation, or setup of a skill repository.
 ---
 
 # Skill Development Planning
 
-Use this skill when planning the creation or revision of a skill, or the structure, division, documentation, or setup of a repository that publishes skills.
+For each affected capability, decide whether to reuse, revise, or create a skill. Apply the repository structure, responsibility, documentation, and setup rules to the parts the change affects.
 
 ## Start from existing capabilities
 
@@ -35,7 +35,7 @@ Identify the core idea that the repository or skill exists to express.
 Define what each skill is responsible for.
 Define when each published skill should be activated from externally recognizable task intent and responsibility boundaries.
 Use the same activation boundary in the repository README, the skill frontmatter description, and the opening usage guidance.
-Keep prerequisites, internal decision criteria, execution steps, and checks that the skill can perform after activation out of the activation condition unless they select a different responsible skill.
+Choose a work type that can be recognized before inspection. For each conditional procedure, identify the observation during that work that makes the procedure applicable. Keep that observation in the body unless it selects a different responsible skill.
 Define the installation method that makes each published skill available to its target system.
 Identify adjacent concerns that are easy to confuse with each responsibility and assign each concern to its actual owner.
 Describe the current responsibility allocation with affirmative ownership statements.
